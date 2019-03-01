@@ -1,0 +1,30 @@
+{
+  "name": "rtsp-stream-list",
+  "version": "1.0.2",
+  "description": "Multi-channel rtsp video display simultaneously",
+  "main": "index.js",
+  "scripts": {
+    "test": "node websocket-relay.js supersecret 18081 18082"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/land007/node-rtsp-stream-list.git"
+  },
+  "keywords": [
+    "rtsp",
+    "Multi-channel",
+    "video"
+  ],
+  "author": "land007",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/land007/node-rtsp-stream-list/issues"
+  },
+  "homepage": "https://github.com/land007/node-rtsp-stream-list#readme",
+  "dependencies": {
+    "express": "^4.16.4",
+    "http-proxy": "^1.17.0",
+    "socket.io": "^2.2.0",
+    "ws": "^6.1.2"
+  }
+}
